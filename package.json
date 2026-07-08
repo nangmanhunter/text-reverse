@@ -2,7 +2,7 @@
   "name": "text-reverse",
   "displayName": "text-reverse",
   "description": "text-reverse",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.125.0"
   },
@@ -14,8 +14,36 @@
   "contributes": {
     "commands": [
       {
-        "command": "@text-reverse/dot",
-        "title"  : "@text-reverse/dot"
+        "command" : "@text-reverse/dot",
+        "category": "@text-reverse/dot",
+        "title"   : "."
+      },
+      {
+        "command" : "@text-reverse/dot-middle",
+        "category": "@text-reverse/dot-middle",
+        "title"   : "ㆍ"
+      },
+
+
+      {
+        "command" : "@text-reverse/hyphen",
+        "category": "@text-reverse/hyphen",
+        "title"   : "-"
+      },
+      {
+        "command" : "@text-reverse/plus",
+        "category": "@text-reverse/plus",
+        "title"   : "+"
+      },
+      {
+        "command" : "@text-reverse/equal",
+        "category": "@text-reverse/equal",
+        "title"   : "="
+      },
+      {
+        "command" : "@text-reverse/nonequal",
+        "category": "@text-reverse/nonequal",
+        "title"   : "≠"
       }
     ]
   },

@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 
-export function textReverseHandler(textReversefunction: any){
+export function textReverseHandler(character: string){
    return () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor) return;
@@ -10,7 +10,7 @@ export function textReverseHandler(textReversefunction: any){
         for (const selection of editor.selections) {
           const text = editor.document.getText(selection);
 
-          const replaced = textReversefunction(text);
+          const replaced = text.split(character).reverse().join(character);
           
           editBuilder.replace(selection, replaced);
         }
