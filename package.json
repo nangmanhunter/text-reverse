@@ -1,4 +1,12 @@
 {
+  "icon": ".assets/icon.png",
+  "publisher": "nangmanhunter-publisher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nangmanhunter/text-reverse.git"
+  },
+
+
   "name": "text-reverse",
   "displayName": "text-reverse",
   "description": "text-reverse",
