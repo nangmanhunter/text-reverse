@@ -5,6 +5,6 @@
 - Split
 - Split.한방화.ㄱㄱ
 */
-export function textReverseUnitDot(text: string): string {
+export function textReverseDot(text: string): string {
   return text.split(".").reverse().join(".");
 }
