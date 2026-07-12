@@ -5,12 +5,10 @@
     "type": "git",
     "url": "https://github.com/nangmanhunter/text-reverse.git"
   },
-
-
   "name": "text-reverse",
   "displayName": "text-reverse",
   "description": "text-reverse",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.125.0"
   },
@@ -22,41 +20,39 @@
   "contributes": {
     "commands": [
       {
-        "command" : "@text-reverse/dot",
+        "command": "@text-reverse/dot",
         "category": "@text-reverse/dot",
-        "title"   : "."
+        "title": "."
       },
       {
-        "command" : "@text-reverse/dot-middle",
+        "command": "@text-reverse/dot-middle",
         "category": "@text-reverse/dot-middle",
-        "title"   : "ㆍ"
+        "title": "ㆍ"
       },
-
-
       {
-        "command" : "@text-reverse/hyphen",
+        "command": "@text-reverse/hyphen",
         "category": "@text-reverse/hyphen",
-        "title"   : "-"
+        "title": "-"
       },
       {
-        "command" : "@text-reverse/plus",
+        "command": "@text-reverse/plus",
         "category": "@text-reverse/plus",
-        "title"   : "+"
+        "title": "+"
       },
       {
-        "command" : "@text-reverse/equal",
+        "command": "@text-reverse/equal",
         "category": "@text-reverse/equal",
-        "title"   : "="
+        "title": "="
       },
       {
-        "command" : "@text-reverse/nonequal",
+        "command": "@text-reverse/nonequal",
         "category": "@text-reverse/nonequal",
-        "title"   : "≠"
+        "title": "≠"
       },
       {
-        "command" : "@text-reverse/space",
+        "command": "@text-reverse/space",
         "category": "@text-reverse/space",
-        "title"   : "\" \""
+        "title": "\" \""
       }
     ]
   },
