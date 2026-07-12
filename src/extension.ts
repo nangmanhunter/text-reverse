@@ -10,6 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.commands.registerCommand('@text-reverse/plus', textReverseHandler("+")),
         vscode.commands.registerCommand('@text-reverse/equal', textReverseHandler("=")),
         vscode.commands.registerCommand('@text-reverse/nonequal', textReverseHandler("≠")),
+        vscode.commands.registerCommand('@text-reverse/space', textReverseHandler(" ")),
     ];
 
     context.subscriptions.push(...disposables);

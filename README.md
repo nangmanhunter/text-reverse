@@ -9,6 +9,7 @@
 | @text-reverse/plus       | `+`     |
 | @text-reverse/equal      | `=`     |
 | @text-reverse/nonequal   | `≠`     |
+| @text-reverse/space      | ` `     |
 
 
 ## 📜descriptions

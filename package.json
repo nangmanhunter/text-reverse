@@ -52,6 +52,11 @@
         "command" : "@text-reverse/nonequal",
         "category": "@text-reverse/nonequal",
         "title"   : "≠"
+      },
+      {
+        "command" : "@text-reverse/space",
+        "category": "@text-reverse/space",
+        "title"   : "\" \""
       }
     ]
   },
