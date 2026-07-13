@@ -53,6 +53,11 @@
         "command": "@text-reverse/space",
         "category": "@text-reverse/space",
         "title": "\" \""
+      },
+      {
+        "command" : "@text-reverse/colon",
+        "category": "@text-reverse/colon",
+        "title": ":"
       }
     ]
   },

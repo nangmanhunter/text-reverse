@@ -10,6 +10,7 @@
 | @text-reverse/equal      | `=`     |
 | @text-reverse/nonequal   | `≠`     |
 | @text-reverse/space      | ` `     |
+| @text-reverse/colon      | `:`     |
 
 
 ## 📜descriptions

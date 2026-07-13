@@ -11,6 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.commands.registerCommand('@text-reverse/equal', textReverseHandler("=")),
         vscode.commands.registerCommand('@text-reverse/nonequal', textReverseHandler("≠")),
         vscode.commands.registerCommand('@text-reverse/space', textReverseHandler(" ")),
+        vscode.commands.registerCommand('@text-reverse/colon', textReverseHandler(":")),
     ];
 
     context.subscriptions.push(...disposables);
